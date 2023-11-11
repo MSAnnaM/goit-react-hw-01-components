@@ -9,5 +9,5 @@ export const FriendList = ({ friends }) => {
         return <FriendListItem key={friend.id} {...friend} />
       })}
     </ul>
-  );
+  )
 };
